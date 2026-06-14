@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
+
+input::-webkit-credentials-auto-fill-button,
+input::-webkit-strong-password-auto-fill-button {
+    display: none;
+}
+
+/* Remove outline nativo do Firefox */
+input:-moz-focusring {
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+*:focus-visible {
+    outline: none;
+}
+
+
+@theme {
+    --color-magenta-50: #fef1f9;
+    --color-magenta-100: #fde5f4;
+    --color-magenta-200: #fbcceb;
+    --color-magenta-300: #f9a3dc;
+    --color-magenta-400: #f56cc4;
+    --color-magenta-500: #eb3fa7;
+    --color-magenta-600: #d91e87;
+    --color-magenta-700: #ba156b;
+    --color-magenta-800: #991658;
+    --color-magenta-900: #7f194b;
+    --color-magenta-950: #4f0829;
+
+    --color-graphite-50: #f6f7f8;
+    --color-graphite-100: #e8eaed;
+    --color-graphite-200: #d4d7dc;
+    --color-graphite-300: #b5bac2;
+    --color-graphite-400: #9098a3;
+    --color-graphite-500: #747d89;
+    --color-graphite-600: #5f6670;
+    --color-graphite-700: #4d535b;
+    --color-graphite-800: #42474d;
+    --color-graphite-900: #3a3e43;
+    --color-graphite-950: #25282c;
+
+    --color-dark-gray: #141414;
+    --color-light-gray: #343434;
+    --color-mid-gray: #242424;
+}
