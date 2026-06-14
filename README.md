@@ -1,4 +1,7 @@
+<!-- @format -->
+
 <<<<<<< HEAD
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -41,15 +44,15 @@ export default defineConfig([
       // other options...
     },
   },
-])
+]);
 ```
 
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
 ```js
 // eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+import reactX from 'eslint-plugin-react-x';
+import reactDom from 'eslint-plugin-react-dom';
 
 export default defineConfig([
   globalIgnores(['dist']),
@@ -70,9 +73,11 @@ export default defineConfig([
       // other options...
     },
   },
-])
+]);
 ```
+
 =======
+
 # Projex
 
 > Plataforma para desenvolvedores publicarem, gerenciarem e exibirem seus projetos.
@@ -166,9 +171,10 @@ O projeto usa duas tabelas no Supabase:
 
 ## Deploy
 
-O projeto está disponível em: [projex.vercel.app](https://projex.vercel.app)
+O projeto está disponível em: [projex-swart.vercel.app](https://projex-swart.vercel.app)
 
 ## Licença
 
 MIT
->>>>>>> 0e43cd5e05a8a9ecf6f789078c91e1f0716bd9b2
+
+> > > > > > > 0e43cd5e05a8a9ecf6f789078c91e1f0716bd9b2
