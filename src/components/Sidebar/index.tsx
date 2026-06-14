@@ -13,7 +13,7 @@ export function Sidebar() {
 
             <div className="pb-4 border-b border-graphite-500 -mx-6 px-6">
                 <Link
-                    to="/home"
+                    to="/"
                     className="flex justify-center"
                 >
                     <img
