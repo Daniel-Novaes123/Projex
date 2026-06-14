@@ -30,7 +30,7 @@ export const CreateProject = () => {
         const projectData = {
             ...data,
             author: user?.email?.split('@')[0],
-            user_id: user.id,
+            user_id: user?.id,
         }
 
 
